@@ -1,0 +1,75 @@
+{
+    "registered_tentacles": {
+        "OctoBot-Default-Tentacles": "https://www.tentacles.octobot.online/repository/tentacles/officials/base/0.4.0b2.zip"
+    },
+    "tentacle_activation": {
+        "Backtesting": {
+            "ExchangeHistoryDataCollector": true,
+            "ExchangeLiveDataCollector": true,
+            "GenericExchangeDataImporter": true,
+            "LegacyDataConverter": true
+        },
+        "Evaluator": {
+            "ADXMomentumEvaluator": false,
+            "BBMomentumEvaluator": true,
+            "DipAnalyserStrategyEvaluator": false,
+            "DoubleMovingAverageTrendEvaluator": false,
+            "EMADivergenceTrendEvaluator": false,
+            "GoogleTrendsEvaluator": false,
+            "InstantFluctuationsEvaluator": false,
+            "InstantMAEvaluator": false,
+            "KlingerOscillatorMomentumEvaluator": true,
+            "KlingerOscillatorReversalConfirmationMomentumEvaluator": false,
+            "MACDMomentumEvaluator": false,
+            "MoveSignalsStrategyEvaluator": true,
+            "OverallStateAnalyser": true,
+            "PatternAnalyser": true,
+            "RSIMomentumEvaluator": false,
+            "RSIWeightMomentumEvaluator": false,
+            "RedditForumEvaluator": false,
+            "SimpleStrategyEvaluator": false,
+            "StatisticAnalysis": true,
+            "StochasticRSIVolatilityEvaluator": false,
+            "TechnicalAnalysisStrategyEvaluator": false,
+            "TelegramSignalEvaluator": false,
+            "TextAnalysis": true,
+            "TrendAnalysis": true,
+            "TwitterNewsEvaluator": false
+        },
+        "Services": {
+            "GoogleService": true,
+            "GoogleServiceFeed": true,
+            "RedditService": true,
+            "RedditServiceFeed": true,
+            "TelegramBotInterface": true,
+            "TelegramNotifier": true,
+            "TelegramService": true,
+            "TelegramServiceFeed": true,
+            "TradingViewService": true,
+            "TradingViewServiceFeed": true,
+            "TwitterNotifier": true,
+            "TwitterService": true,
+            "TwitterServiceFeed": true,
+            "WebHookService": true,
+            "WebInterface": true,
+            "WebNotifier": true,
+            "WebService": true
+        },
+        "Trading": {
+            "ArbitrageTradingMode": false,
+            "Binance": true,
+            "BinanceUS": true,
+            "Bitmax": true,
+            "Bitmex": true,
+            "CoinbasePro": true,
+            "DailyTradingMode": false,
+            "DefaultCCXTSpotExchange": true,
+            "DipAnalyserTradingMode": false,
+            "Kraken": true,
+            "Kucoin": true,
+            "SignalTradingMode": true,
+            "StaggeredOrdersTradingMode": false,
+            "TradingViewSignalsTradingMode": false
+        }
+    }
+}

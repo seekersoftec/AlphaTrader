@@ -1,0 +1,80 @@
+{
+    "accepted_terms": true,
+    "backtesting": {
+        "files": []
+    },
+    "crypto-currencies": {
+        "Bitcoin": {
+            "enabled": true,
+            "pairs": [
+                "BTC/USDT"
+            ]
+        },
+        "Ethereum": {
+            "enabled": true,
+            "pairs": [
+                "ETH/BTC",
+                "ETH/USDT"
+            ]
+        },
+        "Litecoin": {
+            "pairs": [
+                "LTC/BTC",
+                "LTC/USDT"
+            ]
+        }
+    },
+    "exchanges": {
+        "binance": {
+            "api-key": "gAAAAABf-UAM159MTzKc7t1Z5d1QCGBdCtRtSVqgEJOM8go7Po1SY9GnL_YdTArzPQp62wVArR029YO4U-yqhuv1xf4NWgZyZyv3_oLTbb5JWZi5xZRSUG8szRP2PhR9drpFu-6NJuKfpnqr25wiqbqZUdkoEXUhSFrT518_PD5_FGqqdQWe5pg=",
+            "api-secret": "gAAAAABf-UAMO4zdjvxN38lBE5HKkgiO8zRnDMeEeeiZyuLwPlwIptgbZBrUWD_cHsoCsx6o4p9i042RvANh1PlVdu3QK2rH_2XtyMKe5o6rIHzx_TXUDNmooMgS9nale7ERQvpm9KPe7uATdIAsw3mT_9Sob85R9GV3cY8DgXFVawePRw6yz2k=",
+            "sandboxed": false,
+            "web-socket": true
+        }
+    },
+    "metrics": {
+        "enabled": true,
+        "metrics-bot-id": "5ff94368721522311da3f373"
+    },
+    "notification": {
+        "global-info": true,
+        "notification-type": [
+            "web",
+            "telegram"
+        ],
+        "price-alerts": true,
+        "trades": true
+    },
+    "services": {
+        "telegram": {
+            "chat-id": "-1001459957548",
+            "token": "1588128134:AAGNe3uuzUufA9ns0_b9Kv3DpGRPx8rHyYY",
+            "usernames-whitelist": []
+        },
+        "web": {
+            "auto-open-in-web-browser": true,
+            "password": "",
+            "require-password": false
+        }
+    },
+    "trader": {
+        "enabled": false,
+        "load-trade-history": true
+    },
+    "trader-simulator": {
+        "enabled": true,
+        "fees": {
+            "maker": 0.1,
+            "taker": 0.1
+        },
+        "starting-portfolio": {
+            "BTC": 0,
+            "USDT": 100
+        }
+    },
+    "trading": {
+        "reference-market": "BTC",
+        "risk": 0.71
+    },
+    "watched_symbols": []
+}

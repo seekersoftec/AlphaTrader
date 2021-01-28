@@ -1,0 +1,155 @@
+2021-01-25 10:59:49 INFO   OctoBot Launcher     cli.py:102      Version : 0.4.0b2
+2021-01-25 10:59:49 DEBUG  OctoBot Launcher     cli.py:106      Running on Linux:5.4.0-56-generic:x86_64 with python
+2021-01-25 10:59:49 INFO   OctoBot Launcher     cli.py:112      Loading config files...
+2021-01-25 10:59:49 INFO   OctoBot Launcher     cli.py:81       Disclaimer accepted by user.
+2021-01-25 10:59:50 DEBUG  OctoBotChannel       octobot_channel.py:87       Consumer started for subject: * action: * [OctoBotChannelConsumer with callback: octobot_channel_callback]
+2021-01-25 10:59:50 DEBUG  OctoBotChannel       octobot_channel.py:87       Consumer started for subject: * action: ['exchange'] [OctoBotChannelConsumer with callback: octobot_channel_callback]
+2021-01-25 10:59:50 DEBUG  OctoBotChannel       octobot_channel.py:87       Consumer started for subject: * action: ['evaluator'] [OctoBotChannelConsumer with callback: octobot_channel_callback]
+2021-01-25 10:59:50 DEBUG  OctoBotChannel       octobot_channel.py:87       Consumer started for subject: * action: ['interface', 'notification', 'service_feed', 'start_service_feed', 'exchange_registration'] [OctoBotChannelConsumer with callback: octobot_channel_callback]
+2021-01-25 10:59:50 DEBUG  OctoBotChannel       octobot_channel.py:87       Consumer started for subject: ['notification', 'error'] action: * [OctoBotChannelConsumer with callback: octobot_channel_callback]
+2021-01-25 10:59:50 DEBUG  EvaluatorProducer    octobot_channel.py:38       Pausing...
+2021-01-25 10:59:50 DEBUG  MatrixChannel        logger.py:158      Consumer started for : [matrix_id=*, cryptocurrency=*, symbol=*, time_frame=*, evaluator_name=*, exchange_name=*, evaluator_type=*]
+2021-01-25 10:59:50 DEBUG  ExchangeProducer     octobot_channel.py:38       Pausing...
+2021-01-25 10:59:50 DEBUG  ServiceFeedProducer  octobot_channel.py:38       Pausing...
+2021-01-25 10:59:50 DEBUG  InterfaceProducer    octobot_channel.py:38       Pausing...
+2021-01-25 10:59:50 DEBUG  telegram.ext.dispatcher dispatcher.py:228      Setting singleton dispatcher as <telegram.ext.dispatcher.Dispatcher object at 0x7fe2c7ab2e20>
+2021-01-25 10:59:55 DEBUG  telegram.vendor.ptb_urllib3.urllib3.util.retry retry.py:378      Incremented Retry for (url='/bot1588128134:AAGNe3uuzUufA9ns0_b9Kv3DpGRPx8rHyYY/getMe'): Retry(total=2, connect=None, read=None, redirect=None)
+2021-01-25 10:59:56 WARNING telegram.vendor.ptb_urllib3.urllib3.connectionpool connectionpool.py:689      Retrying (Retry(total=2, connect=None, read=None, redirect=None)) after connection broken by 'NewConnectionError('<telegram.vendor.ptb_urllib3.urllib3.connection.VerifiedHTTPSConnection object at 0x7fe2c7ac3a60>: Failed to establish a new connection: [Errno 101] Network is unreachable')': /bot1588128134:AAGNe3uuzUufA9ns0_b9Kv3DpGRPx8rHyYY/getMe
+2021-01-25 11:00:01 DEBUG  telegram.vendor.ptb_urllib3.urllib3.util.retry retry.py:378      Incremented Retry for (url='/bot1588128134:AAGNe3uuzUufA9ns0_b9Kv3DpGRPx8rHyYY/getMe'): Retry(total=1, connect=None, read=None, redirect=None)
+2021-01-25 11:00:01 WARNING telegram.vendor.ptb_urllib3.urllib3.connectionpool connectionpool.py:689      Retrying (Retry(total=1, connect=None, read=None, redirect=None)) after connection broken by 'NewConnectionError('<telegram.vendor.ptb_urllib3.urllib3.connection.VerifiedHTTPSConnection object at 0x7fe2c7ac3bb0>: Failed to establish a new connection: [Errno 101] Network is unreachable')': /bot1588128134:AAGNe3uuzUufA9ns0_b9Kv3DpGRPx8rHyYY/getMe
+2021-01-25 11:00:01 INFO   TelegramService      abstract_service.py:163      Successfully initialized and accessible at: https://web.telegram.org/#/im?p=@AlphaTrader_telegram_bot.
+2021-01-25 11:00:01 INFO   apscheduler.scheduler base.py:166      Scheduler started
+2021-01-25 11:00:01 DEBUG  apscheduler.scheduler base.py:940      Looking for jobs to run
+2021-01-25 11:00:01 DEBUG  apscheduler.scheduler base.py:1016     No jobs; waiting until a job is added
+2021-01-25 11:00:06 DEBUG  telegram.vendor.ptb_urllib3.urllib3.util.retry retry.py:378      Incremented Retry for (url='/bot1588128134:AAGNe3uuzUufA9ns0_b9Kv3DpGRPx8rHyYY/getMe'): Retry(total=2, connect=None, read=None, redirect=None)
+2021-01-25 11:00:06 WARNING telegram.vendor.ptb_urllib3.urllib3.connectionpool connectionpool.py:689      Retrying (Retry(total=2, connect=None, read=None, redirect=None)) after connection broken by 'NewConnectionError('<telegram.vendor.ptb_urllib3.urllib3.connection.VerifiedHTTPSConnection object at 0x7fe2c7a07cd0>: Failed to establish a new connection: [Errno 101] Network is unreachable')': /bot1588128134:AAGNe3uuzUufA9ns0_b9Kv3DpGRPx8rHyYY/getMe
+2021-01-25 11:00:11 DEBUG  telegram.vendor.ptb_urllib3.urllib3.util.retry retry.py:378      Incremented Retry for (url='/bot1588128134:AAGNe3uuzUufA9ns0_b9Kv3DpGRPx8rHyYY/getMe'): Retry(total=1, connect=None, read=None, redirect=None)
+2021-01-25 11:00:11 WARNING telegram.vendor.ptb_urllib3.urllib3.connectionpool connectionpool.py:689      Retrying (Retry(total=1, connect=None, read=None, redirect=None)) after connection broken by 'NewConnectionError('<telegram.vendor.ptb_urllib3.urllib3.connection.VerifiedHTTPSConnection object at 0x7fe2c7a07df0>: Failed to establish a new connection: [Errno 101] Network is unreachable')': /bot1588128134:AAGNe3uuzUufA9ns0_b9Kv3DpGRPx8rHyYY/getMe
+2021-01-25 11:00:16 DEBUG  telegram.vendor.ptb_urllib3.urllib3.util.retry retry.py:378      Incremented Retry for (url='/bot1588128134:AAGNe3uuzUufA9ns0_b9Kv3DpGRPx8rHyYY/getMe'): Retry(total=0, connect=None, read=None, redirect=None)
+2021-01-25 11:00:16 WARNING telegram.vendor.ptb_urllib3.urllib3.connectionpool connectionpool.py:689      Retrying (Retry(total=0, connect=None, read=None, redirect=None)) after connection broken by 'NewConnectionError('<telegram.vendor.ptb_urllib3.urllib3.connection.VerifiedHTTPSConnection object at 0x7fe2c7a07f40>: Failed to establish a new connection: [Errno 101] Network is unreachable')': /bot1588128134:AAGNe3uuzUufA9ns0_b9Kv3DpGRPx8rHyYY/getMe
+2021-01-25 11:00:21 ERROR  TelegramBotInterface returning_startable.py:47       urllib3 HTTPError HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot1588128134:AAGNe3uuzUufA9ns0_b9Kv3DpGRPx8rHyYY/getMe (Caused by NewConnectionError('<telegram.vendor.ptb_urllib3.urllib3.connection.VerifiedHTTPSConnection object at 0x7fe2c7a1f0d0>: Failed to establish a new connection: [Errno 101] Network is unreachable'))
+Traceback (most recent call last):
+  File "/home/seekersoftec/anaconda3/lib/python3.8/site-packages/telegram/vendor/ptb_urllib3/urllib3/connection.py", line 140, in _new_conn
+    conn = connection.create_connection(
+  File "/home/seekersoftec/anaconda3/lib/python3.8/site-packages/telegram/vendor/ptb_urllib3/urllib3/util/connection.py", line 83, in create_connection
+    raise err
+  File "/home/seekersoftec/anaconda3/lib/python3.8/site-packages/telegram/vendor/ptb_urllib3/urllib3/util/connection.py", line 73, in create_connection
+    sock.connect(sa)
+OSError: [Errno 101] Network is unreachable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/seekersoftec/anaconda3/lib/python3.8/site-packages/telegram/vendor/ptb_urllib3/urllib3/connectionpool.py", line 614, in urlopen
+    httplib_response = self._make_request(conn, method, url,
+  File "/home/seekersoftec/anaconda3/lib/python3.8/site-packages/telegram/vendor/ptb_urllib3/urllib3/connectionpool.py", line 360, in _make_request
+    self._validate_conn(conn)
+  File "/home/seekersoftec/anaconda3/lib/python3.8/site-packages/telegram/vendor/ptb_urllib3/urllib3/connectionpool.py", line 857, in _validate_conn
+    super(HTTPSConnectionPool, self)._validate_conn(conn)
+  File "/home/seekersoftec/anaconda3/lib/python3.8/site-packages/telegram/vendor/ptb_urllib3/urllib3/connectionpool.py", line 289, in _validate_conn
+    conn.connect()
+  File "/home/seekersoftec/anaconda3/lib/python3.8/site-packages/telegram/vendor/ptb_urllib3/urllib3/connection.py", line 284, in connect
+    conn = self._new_conn()
+  File "/home/seekersoftec/anaconda3/lib/python3.8/site-packages/telegram/vendor/ptb_urllib3/urllib3/connection.py", line 149, in _new_conn
+    raise NewConnectionError(
+telegram.vendor.ptb_urllib3.urllib3.exceptions.NewConnectionError: <telegram.vendor.ptb_urllib3.urllib3.connection.VerifiedHTTPSConnection object at 0x7fe2c7a1f0d0>: Failed to establish a new connection: [Errno 101] Network is unreachable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/seekersoftec/anaconda3/lib/python3.8/site-packages/telegram/utils/request.py", line 252, in _request_wrapper
+    resp = self._con_pool.request(*args, **kwargs)
+  File "/home/seekersoftec/anaconda3/lib/python3.8/site-packages/telegram/vendor/ptb_urllib3/urllib3/request.py", line 68, in request
+    return self.request_encode_body(method, url, fields=fields,
+  File "/home/seekersoftec/anaconda3/lib/python3.8/site-packages/telegram/vendor/ptb_urllib3/urllib3/request.py", line 148, in request_encode_body
+    return self.urlopen(method, url, **extra_kw)
+  File "/home/seekersoftec/anaconda3/lib/python3.8/site-packages/telegram/vendor/ptb_urllib3/urllib3/poolmanager.py", line 244, in urlopen
+    response = conn.urlopen(method, u.request_uri, **kw)
+  File "/home/seekersoftec/anaconda3/lib/python3.8/site-packages/telegram/vendor/ptb_urllib3/urllib3/connectionpool.py", line 691, in urlopen
+    return self.urlopen(method, url, body, headers, retries,
+  File "/home/seekersoftec/anaconda3/lib/python3.8/site-packages/telegram/vendor/ptb_urllib3/urllib3/connectionpool.py", line 691, in urlopen
+    return self.urlopen(method, url, body, headers, retries,
+  File "/home/seekersoftec/anaconda3/lib/python3.8/site-packages/telegram/vendor/ptb_urllib3/urllib3/connectionpool.py", line 691, in urlopen
+    return self.urlopen(method, url, body, headers, retries,
+  File "/home/seekersoftec/anaconda3/lib/python3.8/site-packages/telegram/vendor/ptb_urllib3/urllib3/connectionpool.py", line 665, in urlopen
+    retries = retries.increment(method, url, error=e, _pool=self,
+  File "/home/seekersoftec/anaconda3/lib/python3.8/site-packages/telegram/vendor/ptb_urllib3/urllib3/util/retry.py", line 376, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+telegram.vendor.ptb_urllib3.urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot1588128134:AAGNe3uuzUufA9ns0_b9Kv3DpGRPx8rHyYY/getMe (Caused by NewConnectionError('<telegram.vendor.ptb_urllib3.urllib3.connection.VerifiedHTTPSConnection object at 0x7fe2c7a1f0d0>: Failed to establish a new connection: [Errno 101] Network is unreachable'))
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/seekersoftec/anaconda3/lib/python3.8/site-packages/octobot_services/util/returning_startable.py", line 43, in start
+    return await self._inner_start()
+  File "/home/seekersoftec/Documents/Tech/Seekersoftec/Software_Eng/Financial-system-bots/Crypto/AlphaTrader/OctoBot/tentacles/Services/Interfaces/telegram_bot_interface/telegram_bot.py", line 48, in _inner_start
+    self.telegram_service.start_dispatcher()
+  File "/home/seekersoftec/Documents/Tech/Seekersoftec/Software_Eng/Financial-system-bots/Crypto/AlphaTrader/OctoBot/tentacles/Services/Services_bases/telegram_service/telegram.py", line 130, in start_dispatcher
+    raise e
+  File "/home/seekersoftec/Documents/Tech/Seekersoftec/Software_Eng/Financial-system-bots/Crypto/AlphaTrader/OctoBot/tentacles/Services/Services_bases/telegram_service/telegram.py", line 127, in start_dispatcher
+    self.telegram_updater.start_polling(timeout=2)
+  File "/home/seekersoftec/anaconda3/lib/python3.8/site-packages/telegram/ext/updater.py", line 285, in start_polling
+    self._init_thread(self.dispatcher.start, "dispatcher", ready=dispatcher_ready)
+  File "/home/seekersoftec/anaconda3/lib/python3.8/site-packages/telegram/ext/updater.py", line 225, in _init_thread
+    name=f"Bot:{self.bot.id}:{name}",
+  File "/home/seekersoftec/anaconda3/lib/python3.8/site-packages/telegram/bot.py", line 117, in decorator
+    self.get_me()
+  File "<decorator-gen-1>", line 2, in get_me
+  File "/home/seekersoftec/anaconda3/lib/python3.8/site-packages/telegram/bot.py", line 135, in decorator
+    result = func(*args, **kwargs)
+  File "/home/seekersoftec/anaconda3/lib/python3.8/site-packages/telegram/bot.py", line 392, in get_me
+    result = self._post('getMe', timeout=timeout, api_kwargs=api_kwargs)
+  File "/home/seekersoftec/anaconda3/lib/python3.8/site-packages/telegram/bot.py", line 245, in _post
+    return self.request.post(f'{self.base_url}/{endpoint}', data=data, timeout=timeout)
+  File "/home/seekersoftec/anaconda3/lib/python3.8/site-packages/telegram/utils/request.py", line 349, in post
+    result = self._request_wrapper(
+  File "/home/seekersoftec/anaconda3/lib/python3.8/site-packages/telegram/utils/request.py", line 258, in _request_wrapper
+    raise NetworkError(f'urllib3 HTTPError {error}') from error
+telegram.error.NetworkError: urllib3 HTTPError HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot1588128134:AAGNe3uuzUufA9ns0_b9Kv3DpGRPx8rHyYY/getMe (Caused by NewConnectionError('<telegram.vendor.ptb_urllib3.urllib3.connection.VerifiedHTTPSConnection object at 0x7fe2c7a1f0d0>: Failed to establish a new connection: [Errno 101] Network is unreachable'))
+2021-01-25 11:00:21 ERROR  TelegramBotInterface returning_startable.py:47       TelegramBotInterface start error: urllib3 HTTPError HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot1588128134:AAGNe3uuzUufA9ns0_b9Kv3DpGRPx8rHyYY/getMe (Caused by NewConnectionError('<telegram.vendor.ptb_urllib3.urllib3.connection.VerifiedHTTPSConnection object at 0x7fe2c7a1f0d0>: Failed to establish a new connection: [Errno 101] Network is unreachable')) (NetworkError)
+2021-01-25 11:00:21 INFO   WebService           abstract_service.py:163      Interface successfully initialized and accessible at: http://127.0.1.1:5001.
+2021-01-25 11:00:21 DEBUG  NotificationChannelProducer abstract_notifier.py:145      Pausing...
+2021-01-25 11:00:21 DEBUG  NotificationChannelProducer abstract_notifier.py:73       Resuming...
+2021-01-25 11:00:21 DEBUG  WebNotifier          abstract_notifier.py:74       Registered as notification consumer
+2021-01-25 11:00:21 DEBUG  TelegramNotifier     abstract_notifier.py:74       Registered as notification consumer
+2021-01-25 11:00:21 DEBUG  OctoBot Channel      logger.py:398      OCTOBOT_CHANNEL : SUBJECT = notification || ACTION = service_feed || DATA = {'instance': <RedditServiceFeed(RedditServiceFeed, initial)>} 
+2021-01-25 11:00:21 DEBUG  OctoBot Channel      logger.py:398      OCTOBOT_CHANNEL : SUBJECT = notification || ACTION = service_feed || DATA = {'instance': <tentacles.Services.Services_feeds.trading_view_service_feed.trading_view_feed.TradingViewServiceFeed object at 0x7fe2c7ab9760>} 
+2021-01-25 11:00:21 DEBUG  OctoBot Channel      logger.py:398      OCTOBOT_CHANNEL : SUBJECT = notification || ACTION = service_feed || DATA = {'instance': <tentacles.Services.Services_feeds.google_service_feed.google_feed.GoogleServiceFeed object at 0x7fe2c7ab97c0>} 
+2021-01-25 11:00:21 DEBUG  OctoBot Channel      logger.py:398      OCTOBOT_CHANNEL : SUBJECT = notification || ACTION = service_feed || DATA = {'instance': <TwitterServiceFeed(TwitterServiceFeed, initial)>} 
+2021-01-25 11:00:21 DEBUG  OctoBot Channel      logger.py:398      OCTOBOT_CHANNEL : SUBJECT = notification || ACTION = service_feed || DATA = {'instance': <tentacles.Services.Services_feeds.telegram_service_feed.telegram_feed.TelegramServiceFeed object at 0x7fe2c7ab98e0>} 
+2021-01-25 11:00:21 DEBUG  OctoBot Channel      logger.py:398      OCTOBOT_CHANNEL : SUBJECT = notification || ACTION = interface || DATA = {'instance': None} 
+2021-01-25 11:00:21 DEBUG  OctoBot Channel      logger.py:398      OCTOBOT_CHANNEL : SUBJECT = notification || ACTION = interface || DATA = {'instance': <WebInterface(WebInterface, started 140611979314944)>} 
+2021-01-25 11:00:21 DEBUG  OctoBot Channel      logger.py:398      OCTOBOT_CHANNEL : SUBJECT = notification || ACTION = notification || DATA = {'instance': <tentacles.Services.Notifiers.web_notifier.web.WebNotifier object at 0x7fe2c7ae6910>} 
+2021-01-25 11:00:21 DEBUG  OctoBot Channel      logger.py:398      OCTOBOT_CHANNEL : SUBJECT = notification || ACTION = notification || DATA = {'instance': <tentacles.Services.Notifiers.telegram_notifier.telegram.TelegramNotifier object at 0x7fe2c7a1fa30>} 
+2021-01-25 11:00:21 DEBUG  WebNotifier          abstract_notifier.py:59       Publishing notification: [Notification] title: , text: OctoBot 0.4.0b2 is starting ..., level: NotificationLevel.INFO, markdown_format: ITALIC, category: global-info, linked_notification: None
+2021-01-25 11:00:21 DEBUG  TelegramNotifier     abstract_notifier.py:59       Publishing notification: [Notification] title: , text: OctoBot 0.4.0b2 is starting ..., level: NotificationLevel.INFO, markdown_format: ITALIC, category: global-info, linked_notification: None
+2021-01-25 11:00:21 DEBUG  TelegramNotifier     telegram.py:27       sending notification: [Notification] title: , text: OctoBot 0.4.0b2 is starting ..., level: NotificationLevel.INFO, markdown_format: ITALIC, category: global-info, linked_notification: None
+2021-01-25 11:00:32 ERROR  CCXTExchange[binance] events.py:81       initialization impossible: binance GET https://api.binance.com/api/v3/exchangeInfo
+2021-01-25 11:00:32 ERROR  ExchangeManager      events.py:81       Failed to load exchange symbols or time frames
+2021-01-25 11:00:32 ERROR  root                 logger.py:44         File "octobot_trading/exchanges/exchange_manager.py", line 174, in octobot_trading.exchanges.exchange_manager.ExchangeManager._raise_exchange_load_error
+NoneType: None
+2021-01-25 11:00:32 ERROR  root                 logger.py:45       <class 'Exception'>: <tentacles.Trading.Exchange.binance.binance_exchange.Binance object at 0x7fe2c7ae2940> - Failed to load exchange instances
+NoneType: None
+2021-01-25 11:00:32 ERROR  ExchangeConfig       events.py:81       binance is not supporting the BTC/USDT trading pair.
+2021-01-25 11:00:32 ERROR  ExchangeConfig       events.py:81       binance is not supporting any Bitcoin trading pair from the current configuration.
+2021-01-25 11:00:32 DEBUG  OHLCVUpdater[binance] events.py:81       Pausing...
+2021-01-25 11:00:32 DEBUG  OrderBookUpdater[binance] events.py:81       Pausing...
+2021-01-25 11:00:32 DEBUG  RecentTradeUpdater[binance] events.py:81       Pausing...
+2021-01-25 11:00:32 DEBUG  TickerUpdater[binance] events.py:81       Pausing...
+2021-01-25 11:00:32 DEBUG  KlineUpdater[binance] events.py:81       Pausing...
+2021-01-25 11:00:32 DEBUG  MarkPriceUpdater[binance] events.py:81       Pausing...
+2021-01-25 11:00:32 DEBUG  FundingUpdater[binance] events.py:81       Pausing...
+2021-01-25 11:00:32 DEBUG  OrdersUpdaterSimulator[binance] events.py:81       Pausing...
+2021-01-25 11:00:32 DEBUG  BalanceProfitabilityUpdater events.py:81       Pausing...
+2021-01-25 11:00:32 DEBUG  PositionsUpdaterSimulator[binance] events.py:81       Pausing...
+2021-01-25 11:00:32 DEBUG  SpotPortfolioSimulator[binance] events.py:81       Portfolio updated | Current Portfolio : {'BTC': {'available': 0.0, 'total': 0.0}, 'USDT': {'available': 100.0, 'total': 100.0}}
+2021-01-25 11:00:32 INFO   PortfolioManager     events.py:81       Current Portfolio : {'BTC': {'available': 0.0, 'total': 0.0}, 'USDT': {'available': 100.0, 'total': 100.0}}
+2021-01-25 11:00:32 DEBUG  TraderSimulator[binance] events.py:81       Enabled on binance
+2021-01-25 11:00:32 INFO   CCXTExchange[binance] events.py:81       Closing connection.
+2021-01-25 11:00:32 INFO   CCXTExchange[binance] events.py:81       Connection closed.
+2021-01-25 11:00:32 ERROR  OctoBotChannelTradingConsumer events.py:81       Error when initializing trading mode, binance exchange connection is closed to increase performances: As non symbol-wildcard trading mode, SignalTradingMode requires at least one exchange trading pair to be initialized. None of the required pairs are available on binance.
+2021-01-25 11:04:59 INFO   TaskManager          task_manager.py:72       Stopping tasks...
+2021-01-25 11:04:59 INFO   TaskManager          task_manager.py:86       Tasks stopped.
+2021-01-25 11:04:59 DEBUG  WebInterface         web.py:193      Stopping web interface
+2021-01-25 11:04:59 INFO   OctoBot              octobot.py:133      Shutting down.
+2021-01-25 11:04:59 WARNING TaskManager          task_manager.py:97       Error in bot main async loop: {'message': 'Exception in callback <_GatheringFuture pending>()', 'exception': TypeError("'_GatheringFuture' object is not callable"), 'handle': <Handle <_GatheringFuture pending>()>}

@@ -1,0 +1,156 @@
+2021-01-25 09:22:32 INFO   OctoBot Launcher     cli.py:102      Version : 0.4.0b2
+2021-01-25 09:22:32 DEBUG  OctoBot Launcher     cli.py:106      Running on Linux:5.4.0-56-generic:x86_64 with python
+2021-01-25 09:22:32 INFO   OctoBot Launcher     cli.py:112      Loading config files...
+2021-01-25 09:22:32 INFO   OctoBot Launcher     cli.py:81       Disclaimer accepted by user.
+2021-01-25 09:22:33 DEBUG  OctoBotChannel       octobot_channel.py:87       Consumer started for subject: * action: * [OctoBotChannelConsumer with callback: octobot_channel_callback]
+2021-01-25 09:22:33 DEBUG  OctoBotChannel       octobot_channel.py:87       Consumer started for subject: * action: ['exchange'] [OctoBotChannelConsumer with callback: octobot_channel_callback]
+2021-01-25 09:22:33 DEBUG  OctoBotChannel       octobot_channel.py:87       Consumer started for subject: * action: ['evaluator'] [OctoBotChannelConsumer with callback: octobot_channel_callback]
+2021-01-25 09:22:33 DEBUG  OctoBotChannel       octobot_channel.py:87       Consumer started for subject: * action: ['interface', 'notification', 'service_feed', 'start_service_feed', 'exchange_registration'] [OctoBotChannelConsumer with callback: octobot_channel_callback]
+2021-01-25 09:22:33 DEBUG  OctoBotChannel       octobot_channel.py:87       Consumer started for subject: ['notification', 'error'] action: * [OctoBotChannelConsumer with callback: octobot_channel_callback]
+2021-01-25 09:22:33 DEBUG  EvaluatorProducer    octobot_channel.py:38       Pausing...
+2021-01-25 09:22:33 DEBUG  MatrixChannel        logger.py:158      Consumer started for : [matrix_id=*, cryptocurrency=*, symbol=*, time_frame=*, evaluator_name=*, exchange_name=*, evaluator_type=*]
+2021-01-25 09:22:33 DEBUG  ExchangeProducer     octobot_channel.py:38       Pausing...
+2021-01-25 09:22:33 DEBUG  ServiceFeedProducer  octobot_channel.py:38       Pausing...
+2021-01-25 09:22:33 DEBUG  InterfaceProducer    octobot_channel.py:38       Pausing...
+2021-01-25 09:22:33 DEBUG  telegram.ext.dispatcher dispatcher.py:228      Setting singleton dispatcher as <telegram.ext.dispatcher.Dispatcher object at 0x7feb4a72adc0>
+2021-01-25 09:22:34 INFO   TelegramService      abstract_service.py:163      Successfully initialized and accessible at: https://web.telegram.org/#/im?p=@AlphaTrader_telegram_bot.
+2021-01-25 09:22:34 INFO   apscheduler.scheduler base.py:166      Scheduler started
+2021-01-25 09:22:34 DEBUG  apscheduler.scheduler base.py:940      Looking for jobs to run
+2021-01-25 09:22:34 DEBUG  apscheduler.scheduler base.py:1016     No jobs; waiting until a job is added
+2021-01-25 09:22:34 DEBUG  telegram.ext.dispatcher dispatcher.py:354      Dispatcher started
+2021-01-25 09:22:34 INFO   WebService           abstract_service.py:163      Interface successfully initialized and accessible at: http://127.0.1.1:5001.
+2021-01-25 09:22:34 DEBUG  NotificationChannelProducer abstract_notifier.py:145      Pausing...
+2021-01-25 09:22:34 DEBUG  NotificationChannelProducer abstract_notifier.py:73       Resuming...
+2021-01-25 09:22:34 DEBUG  WebNotifier          abstract_notifier.py:74       Registered as notification consumer
+2021-01-25 09:22:34 DEBUG  TelegramNotifier     abstract_notifier.py:74       Registered as notification consumer
+2021-01-25 09:22:34 DEBUG  OctoBot Channel      logger.py:398      OCTOBOT_CHANNEL : SUBJECT = notification || ACTION = service_feed || DATA = {'instance': <RedditServiceFeed(RedditServiceFeed, initial)>} 
+2021-01-25 09:22:34 DEBUG  OctoBot Channel      logger.py:398      OCTOBOT_CHANNEL : SUBJECT = notification || ACTION = service_feed || DATA = {'instance': <tentacles.Services.Services_feeds.trading_view_service_feed.trading_view_feed.TradingViewServiceFeed object at 0x7feb4a731760>} 
+2021-01-25 09:22:34 DEBUG  OctoBot Channel      logger.py:398      OCTOBOT_CHANNEL : SUBJECT = notification || ACTION = service_feed || DATA = {'instance': <tentacles.Services.Services_feeds.google_service_feed.google_feed.GoogleServiceFeed object at 0x7feb4a7317c0>} 
+2021-01-25 09:22:34 DEBUG  OctoBot Channel      logger.py:398      OCTOBOT_CHANNEL : SUBJECT = notification || ACTION = service_feed || DATA = {'instance': <TwitterServiceFeed(TwitterServiceFeed, initial)>} 
+2021-01-25 09:22:34 DEBUG  OctoBot Channel      logger.py:398      OCTOBOT_CHANNEL : SUBJECT = notification || ACTION = service_feed || DATA = {'instance': <tentacles.Services.Services_feeds.telegram_service_feed.telegram_feed.TelegramServiceFeed object at 0x7feb4a7318e0>} 
+2021-01-25 09:22:34 DEBUG  OctoBot Channel      logger.py:398      OCTOBOT_CHANNEL : SUBJECT = notification || ACTION = interface || DATA = {'instance': <tentacles.Services.Interfaces.telegram_bot_interface.telegram_bot.TelegramBotInterface object at 0x7feb4a75f850>} 
+2021-01-25 09:22:34 DEBUG  OctoBot Channel      logger.py:398      OCTOBOT_CHANNEL : SUBJECT = notification || ACTION = interface || DATA = {'instance': <WebInterface(WebInterface, started 140648166455040)>} 
+2021-01-25 09:22:34 DEBUG  OctoBot Channel      logger.py:398      OCTOBOT_CHANNEL : SUBJECT = notification || ACTION = notification || DATA = {'instance': <tentacles.Services.Notifiers.web_notifier.web.WebNotifier object at 0x7feb4a75f8b0>} 
+2021-01-25 09:22:34 DEBUG  OctoBot Channel      logger.py:398      OCTOBOT_CHANNEL : SUBJECT = notification || ACTION = notification || DATA = {'instance': <tentacles.Services.Notifiers.telegram_notifier.telegram.TelegramNotifier object at 0x7feb4a693850>} 
+2021-01-25 09:22:34 DEBUG  WebNotifier          abstract_notifier.py:59       Publishing notification: [Notification] title: , text: OctoBot 0.4.0b2 is starting ..., level: NotificationLevel.INFO, markdown_format: ITALIC, category: global-info, linked_notification: None
+2021-01-25 09:22:34 DEBUG  TelegramNotifier     abstract_notifier.py:59       Publishing notification: [Notification] title: , text: OctoBot 0.4.0b2 is starting ..., level: NotificationLevel.INFO, markdown_format: ITALIC, category: global-info, linked_notification: None
+2021-01-25 09:22:34 DEBUG  TelegramNotifier     telegram.py:27       sending notification: [Notification] title: , text: OctoBot 0.4.0b2 is starting ..., level: NotificationLevel.INFO, markdown_format: ITALIC, category: global-info, linked_notification: None
+2021-01-25 09:22:36 DEBUG  OHLCVUpdater[binance] events.py:81       Pausing...
+2021-01-25 09:22:36 DEBUG  OrderBookUpdater[binance] events.py:81       Pausing...
+2021-01-25 09:22:36 DEBUG  RecentTradeUpdater[binance] events.py:81       Pausing...
+2021-01-25 09:22:36 DEBUG  TickerUpdater[binance] events.py:81       Pausing...
+2021-01-25 09:22:36 DEBUG  KlineUpdater[binance] events.py:81       Pausing...
+2021-01-25 09:22:36 DEBUG  MarkPriceUpdater[binance] events.py:81       Pausing...
+2021-01-25 09:22:36 DEBUG  FundingUpdater[binance] events.py:81       Pausing...
+2021-01-25 09:22:36 DEBUG  OrdersUpdaterSimulator[binance] events.py:81       Pausing...
+2021-01-25 09:22:36 DEBUG  BalanceProfitabilityUpdater events.py:81       Pausing...
+2021-01-25 09:22:36 DEBUG  PositionsUpdaterSimulator[binance] events.py:81       Pausing...
+2021-01-25 09:22:36 DEBUG  SpotPortfolioSimulator[binance] events.py:81       Portfolio updated | Current Portfolio : {'BTC': {'available': 0.0, 'total': 0.0}, 'USDT': {'available': 100.0, 'total': 100.0}}
+2021-01-25 09:22:36 INFO   PortfolioManager     events.py:81       Current Portfolio : {'BTC': {'available': 0.0, 'total': 0.0}, 'USDT': {'available': 100.0, 'total': 100.0}}
+2021-01-25 09:22:36 DEBUG  TraderSimulator[binance] events.py:81       Enabled on binance
+2021-01-25 09:22:36 DEBUG  StaggeredOrdersTradingModeProducer staggered_orders_trading.py:118      Pausing...
+2021-01-25 09:22:36 DEBUG  ModeChannel[binance] staggered_orders_trading.py:124      Consumer started for : [trading_mode_name=StaggeredOrdersTradingMode, state=*, cryptocurrency=*, symbol=BTC/USDT, time_frame=*]
+2021-01-25 09:22:36 DEBUG  OrdersChannel[binance] staggered_orders_trading.py:132      Consumer started for symbol BTC/USDT
+2021-01-25 09:22:36 DEBUG  OrdersUpdaterSimulator[binance] staggered_orders_trading.py:132      Resuming...
+2021-01-25 09:22:36 DEBUG  TradingModeFactory[binance] events.py:81       StaggeredOrdersTradingMode started for [cryptocurrency=*, symbol=BTC/USDT, time_frame=*]
+2021-01-25 09:22:36 DEBUG  OrderBookUpdater[binance] events.py:81       Pausing...
+2021-01-25 09:22:36 DEBUG  TickerUpdater[binance] events.py:81       Pausing...
+2021-01-25 09:22:36 DEBUG  KlineUpdater[binance] events.py:81       Pausing...
+2021-01-25 09:22:36 DEBUG  MarkPriceUpdater[binance] events.py:81       Pausing...
+2021-01-25 09:22:36 DEBUG  RecentTradeChannel[binance] events.py:81       Consumer started for symbol *
+2021-01-25 09:22:36 DEBUG  RecentTradeUpdater[binance] events.py:81       Resuming...
+2021-01-25 09:22:36 DEBUG  BalanceChannel[binance] events.py:81       Consumer started for symbol *
+2021-01-25 09:22:36 DEBUG  MarkPriceChannel[binance] events.py:81       Consumer started for symbol *
+2021-01-25 09:22:36 DEBUG  MarkPriceUpdater[binance] events.py:81       Resuming...
+2021-01-25 09:22:36 DEBUG  MarkPriceChannel[binance] events.py:81       Consumer started for symbol *
+2021-01-25 09:22:36 DEBUG  MatrixChannel        staggered_orders_trading.py:277      Consumer started for : [matrix_id=b43b366f-9ff4-4c78-9172-e3e07dd67415, cryptocurrency=*, symbol=BTC/USDT, time_frame=*, evaluator_name=*, exchange_name=binance, evaluator_type=STRATEGIES]
+2021-01-25 09:22:36 DEBUG  TickerChannel[binance] logger.py:95       Consumer started for symbol *
+2021-01-25 09:22:36 DEBUG  MiniTickerChannel[binance] logger.py:99       Consumer started for symbol *
+2021-01-25 09:22:36 DEBUG  RecentTradeChannel[binance] logger.py:103      Consumer started for symbol *
+2021-01-25 09:22:36 DEBUG  OrderBookChannel[binance] logger.py:107      Consumer started for symbol *
+2021-01-25 09:22:36 DEBUG  OrderBookTickerChannel[binance] logger.py:111      Consumer started for symbol *
+2021-01-25 09:22:36 DEBUG  KlineChannel[binance] logger.py:115      Consumer started for symbol *
+2021-01-25 09:22:36 DEBUG  OHLCVChannel[binance] logger.py:119      Consumer started for symbol *
+2021-01-25 09:22:36 DEBUG  BalanceChannel[binance] logger.py:123      Consumer started for symbol *
+2021-01-25 09:22:36 DEBUG  BalanceProfitabilityChannel[binance] logger.py:127      Consumer started for symbol *
+2021-01-25 09:22:36 DEBUG  BalanceProfitabilityUpdater logger.py:127      Resuming...
+2021-01-25 09:22:36 DEBUG  TradesChannel[binance] logger.py:131      Consumer started for symbol *
+2021-01-25 09:22:36 DEBUG  LiquidationsChannel[binance] logger.py:135      Consumer started for symbol *
+2021-01-25 09:22:36 DEBUG  PositionsChannel[binance] logger.py:139      Consumer started for symbol *
+2021-01-25 09:22:36 DEBUG  OrdersChannel[binance] logger.py:143      Consumer started for symbol *
+2021-01-25 09:22:36 DEBUG  MarkPriceChannel[binance] logger.py:147      Consumer started for symbol *
+2021-01-25 09:22:36 DEBUG  FundingChannel[binance] logger.py:151      Consumer started for symbol *
+2021-01-25 09:22:36 DEBUG  OctoBot Channel      logger.py:398      OCTOBOT_CHANNEL : SUBJECT = notification || ACTION = exchange || DATA = {'exchange_id': '5335b712-62db-4a90-afb3-15c82a98659f'} 
+2021-01-25 09:22:36 DEBUG  RecentTradeChannel[binance] events.py:81       Consumer started for symbol *
+2021-01-25 09:22:36 DEBUG  TickerChannel[binance] events.py:81       Consumer started for symbol *
+2021-01-25 09:22:36 DEBUG  TickerUpdater[binance] events.py:81       Resuming...
+2021-01-25 09:22:36 INFO   EvaluatorsFactory    evaluators.py:43       No evaluator to create for binance: no activated evaluator strategy.
+2021-01-25 09:22:36 DEBUG  TradesChannel[binance] channels.py:35       Consumer started for symbol *
+2021-01-25 09:22:36 DEBUG  OHLCVChannel[binance] channels.py:35       Consumer started for symbol *
+2021-01-25 09:22:36 DEBUG  OHLCVUpdater[binance] channels.py:35       Resuming...
+2021-01-25 09:22:36 DEBUG  OrdersChannel[binance] channels.py:35       Consumer started for symbol *
+2021-01-25 09:22:36 DEBUG  OrdersChannel[binance] channels.py:35       Consumer started for symbol *
+2021-01-25 09:22:36 DEBUG  OctoBot Channel      logger.py:398      OCTOBOT_CHANNEL : SUBJECT = notification || ACTION = evaluator || DATA = {'matrix_id': 'b43b366f-9ff4-4c78-9172-e3e07dd67415'} 
+2021-01-25 09:22:36 WARNING ServiceFactory       service_factory.py:54       RedditService can't be initialized: configuration is missing, wrong or incomplete !
+2021-01-25 09:22:36 DEBUG  RedditServiceFeed    abstract_service_user.py:59       Impossible to start RedditServiceFeed: required service RedditService is not available.
+2021-01-25 09:22:36 DEBUG  OctoBotChannelServiceConsumer octobot_channel_consumer.py:137      Impossible to start RedditServiceFeed: missing service(s) configuration.
+2021-01-25 09:22:36 WARNING ServiceFactory       service_factory.py:54       WebHookService can't be initialized: configuration is missing, wrong or incomplete !
+2021-01-25 09:22:36 DEBUG  TradingViewServiceFeed abstract_service_user.py:59       Impossible to start TradingViewServiceFeed: required service WebHookService is not available.
+2021-01-25 09:22:36 DEBUG  OctoBotChannelServiceConsumer octobot_channel_consumer.py:137      Impossible to start TradingViewServiceFeed: missing service(s) configuration.
+2021-01-25 09:22:36 INFO   GoogleServiceFeed    abstract_service_feed.py:124      Initializing feed reception ...
+2021-01-25 09:22:36 INFO   GoogleServiceFeed    abstract_service_feed.py:119      Nothing to monitor, feed is closing.
+2021-01-25 09:22:36 WARNING ServiceFactory       service_factory.py:54       TwitterService can't be initialized: configuration is missing, wrong or incomplete !
+2021-01-25 09:22:36 DEBUG  TwitterServiceFeed   abstract_service_user.py:59       Impossible to start TwitterServiceFeed: required service TwitterService is not available.
+2021-01-25 09:22:36 DEBUG  OctoBotChannelServiceConsumer octobot_channel_consumer.py:137      Impossible to start TwitterServiceFeed: missing service(s) configuration.
+2021-01-25 09:22:36 INFO   TelegramServiceFeed  abstract_service_feed.py:124      Initializing feed reception ...
+2021-01-25 09:22:36 INFO   TelegramServiceFeed  abstract_service_feed.py:119      Nothing to monitor, feed is closing.
+2021-01-25 09:22:36 DEBUG  OctoBot Channel      logger.py:398      OCTOBOT_CHANNEL : SUBJECT = notification || ACTION = start_service_feed || DATA = {'successful_operation': False} 
+2021-01-25 09:22:36 DEBUG  OctoBot Channel      logger.py:398      OCTOBOT_CHANNEL : SUBJECT = notification || ACTION = start_service_feed || DATA = {'successful_operation': False} 
+2021-01-25 09:22:36 DEBUG  OctoBot Channel      logger.py:398      OCTOBOT_CHANNEL : SUBJECT = notification || ACTION = start_service_feed || DATA = {'successful_operation': True} 
+2021-01-25 09:22:36 DEBUG  OctoBot Channel      logger.py:398      OCTOBOT_CHANNEL : SUBJECT = notification || ACTION = start_service_feed || DATA = {'successful_operation': False} 
+2021-01-25 09:22:36 DEBUG  OctoBot Channel      logger.py:398      OCTOBOT_CHANNEL : SUBJECT = notification || ACTION = start_service_feed || DATA = {'successful_operation': True} 
+2021-01-25 09:22:37 DEBUG  OctoBot Channel      logger.py:238      RECENT TRADES : EXCHANGE = binance || CRYPTOCURRENCY = BTC || SYMBOL = BTC/USDT || 10 first RECENT TRADES = [{'timestamp': 1611562955.465, 'symbol': 'BTC/USDT', 'side': 'buy', 'price': 33284.87, 'amount': 0.01728, 'cost': 575.1625536}, {'timestamp': 1611562955.499, 'symbol': 'BTC/USDT', 'side': 'buy', 'price': 33285.0, 'amount': 0.000861, 'cost': 28.658385}, {'timestamp': 1611562955.526, 'symbol': 'BTC/USDT', 'side': 'buy', 'price': 33285.83, 'amount': 0.000956, 'cost': 31.821253480000003}, {'timestamp': 1611562955.533, 'symbol': 'BTC/USDT', 'side': 'sell', 'price': 33285.82, 'amount': 0.04628, 'cost': 1540.4677496}, {'timestamp': 1611562955.567, 'symbol': 'BTC/USDT', 'side': 'sell', 'price': 33285.82, 'amount': 0.054599, 'cost': 1817.3724861800001}, {'timestamp': 1611562955.567, 'symbol': 'BTC/USDT', 'side': 'sell', 'price': 33285.82, 'amount': 0.010644, 'cost': 354.29426808}, {'timestamp': 1611562955.615, 'symbol': 'BTC/USDT', 'side': 'sell', 'price': 33285.82, 'amount': 0.051459, 'cost': 1712.85501138}, {'timestamp': 1611562955.627, 'symbol': 'BTC/USDT', 'side': 'sell', 'price': 33285.82, 'amount': 0.014992, 'cost': 499.02101344}, {'timestamp': 1611562956.032, 'symbol': 'BTC/USDT', 'side': 'sell', 'price': 33285.82, 'amount': 0.272346, 'cost': 9065.259933719999}, {'timestamp': 1611562956.141, 'symbol': 'BTC/USDT', 'side': 'buy', 'price': 33285.83, 'amount': 0.116, 'cost': 3861.1562800000006}]
+2021-01-25 09:22:37 DEBUG  OHLCVUpdater[binance] events.py:81       Candle history loaded for BTC/USDT on TimeFrames.ONE_MINUTE
+2021-01-25 09:22:37 DEBUG  OHLCVUpdater[binance] events.py:81       Candle history initial fetch completed
+2021-01-25 09:22:37 DEBUG  OctoBot Channel      logger.py:180      TICKER : EXCHANGE = binance || CRYPTOCURRENCY = BTC || SYMBOL = BTC/USDT || TICKER = {'symbol': 'BTC/USDT', 'timestamp': 1611562957411, 'datetime': '2021-01-25T08:22:37.411Z', 'high': 33797.96, 'low': 30900.0, 'bid': 33285.85, 'bidVolume': 0.141572, 'ask': 33285.86, 'askVolume': 1.593381, 'vwap': 32450.94232003, 'open': 32646.34, 'close': 33285.86, 'last': 33285.86, 'previousClose': 32646.33, 'change': 639.52, 'percentage': 1.959, 'average': None, 'baseVolume': 64635.375394, 'quoteVolume': 2097478838.743931, 'info': {'symbol': 'BTCUSDT', 'priceChange': '639.52000000', 'priceChangePercent': '1.959', 'weightedAvgPrice': '32450.94232003', 'prevClosePrice': '32646.33000000', 'lastPrice': '33285.86000000', 'lastQty': '0.00489100', 'bidPrice': '33285.85000000', 'bidQty': '0.14157200', 'askPrice': '33285.86000000', 'askQty': '1.59338100', 'openPrice': '32646.34000000', 'highPrice': '33797.96000000', 'lowPrice': '30900.00000000', 'volume': '64635.37539400', 'quoteVolume': '2097478838.74393104', 'openTime': 1611476557411, 'closeTime': 1611562957411, 'firstId': 592930329, 'lastId': 594581986, 'count': 1651658}}
+2021-01-25 09:22:37 DEBUG  OctoBot Channel      logger.py:189      MINI TICKER : EXCHANGE = binance || CRYPTOCURRENCY = BTC || SYMBOL = BTC/USDT || MINI TICKER = {'high_price': 33797.96, 'low_price': 30900.0, 'open_price': 32646.34, 'close_price': 33285.86, 'volume': 64635.375394, 'timestamp': 1611562957411}
+2021-01-25 09:22:37 INFO   OctoBot Channel      logger.py:265      MARK PRICE : EXCHANGE = binance || CRYPTOCURRENCY = BTC || SYMBOL = BTC/USDT || MARK PRICE = 33285.86
+2021-01-25 09:22:37 INFO   OctoBot Channel      logger.py:283      BALANCE PROFITABILITY : EXCHANGE = binance || PROFITABILITY = 0 USDT (0%)
+2021-01-25 09:22:37 WARNING StaggeredOrdersTradingModeProducer staggered_orders_trading.py:446      No TradeOrderSide.SELL orders for BTC/USDT possible: current price beyond boundaries.
+2021-01-25 09:22:37 DEBUG  StaggeredOrdersTradingModeConsumer events.py:81       Entering create_order_if_possible for BTC/USDT
+2021-01-25 09:22:37 DEBUG  TraderSimulator[binance] staggered_orders_trading.py:188      Order creation : BTC/USDT | BUY_LIMIT | Price : 3822.85 | Quantity : 0.004355 | State : Unknown | id : 79b36334-6b90-4bff-bc66-087529e11403 
+2021-01-25 09:22:37 INFO   BuyLimitOrder | 79b36334-6b90-4bff-bc66-087529e11403 staggered_orders_trading.py:188      BTC/USDT | BUY_LIMIT | Price : 3822.85 | Quantity : 0.004355 | State : open | id : 79b36334-6b90-4bff-bc66-087529e11403 open on binance
+2021-01-25 09:22:37 DEBUG  StaggeredOrdersTradingModeConsumer events.py:81       Exiting create_order_if_possible for BTC/USDT
+2021-01-25 09:22:37 DEBUG  StaggeredOrdersTradingModeConsumer events.py:81       Entering create_order_if_possible for BTC/USDT
+2021-01-25 09:22:37 DEBUG  TraderSimulator[binance] staggered_orders_trading.py:188      Order creation : BTC/USDT | BUY_LIMIT | Price : 4821.43 | Quantity : 0.006913 | State : Unknown | id : 755ef854-914e-4d7d-b7c9-6784c7ec92c9 
+2021-01-25 09:22:37 INFO   BuyLimitOrder | 755ef854-914e-4d7d-b7c9-6784c7ec92c9 staggered_orders_trading.py:188      BTC/USDT | BUY_LIMIT | Price : 4821.43 | Quantity : 0.006913 | State : open | id : 755ef854-914e-4d7d-b7c9-6784c7ec92c9 open on binance
+2021-01-25 09:22:37 DEBUG  StaggeredOrdersTradingModeConsumer events.py:81       Exiting create_order_if_possible for BTC/USDT
+2021-01-25 09:22:37 DEBUG  StaggeredOrdersTradingModeConsumer events.py:81       Entering create_order_if_possible for BTC/USDT
+2021-01-25 09:22:37 DEBUG  TraderSimulator[binance] staggered_orders_trading.py:188      Order creation : BTC/USDT | BUY_LIMIT | Price : 5820.0 | Quantity : 0.008591 | State : Unknown | id : b0b601e7-2fb4-44ee-8559-82fc61d52d2f 
+2021-01-25 09:22:37 INFO   BuyLimitOrder | b0b601e7-2fb4-44ee-8559-82fc61d52d2f staggered_orders_trading.py:188      BTC/USDT | BUY_LIMIT | Price : 5820.0 | Quantity : 0.008591 | State : open | id : b0b601e7-2fb4-44ee-8559-82fc61d52d2f open on binance
+2021-01-25 09:22:37 DEBUG  StaggeredOrdersTradingModeConsumer events.py:81       Exiting create_order_if_possible for BTC/USDT
+2021-01-25 09:22:37 INFO   OctoBot Channel      logger.py:317      ORDERS : EXCHANGE = binance || SYMBOL = BTC/USDT || BUY LIMIT: 0.004355 BTC at 3822.85 USDT on Binance || status = open || CREATED = False || FROM_BOT = True
+2021-01-25 09:22:37 INFO   OctoBot Channel      logger.py:317      ORDERS : EXCHANGE = binance || SYMBOL = BTC/USDT || BUY LIMIT: 0.006913 BTC at 4821.43 USDT on Binance || status = open || CREATED = False || FROM_BOT = True
+2021-01-25 09:22:37 INFO   OctoBot Channel      logger.py:317      ORDERS : EXCHANGE = binance || SYMBOL = BTC/USDT || BUY LIMIT: 0.008591 BTC at 5820 USDT on Binance || status = open || CREATED = False || FROM_BOT = True
+2021-01-25 09:22:37 DEBUG  WebNotifier          abstract_notifier.py:59       Publishing notification: [Notification] title: Order creation, text: - BUY LIMIT: 0.004355 BTC at 3822.85 USDT on Binance, level: NotificationLevel.INFO, markdown_format: IGNORE, category: trades, linked_notification: None
+2021-01-25 09:22:37 DEBUG  WebNotifier          abstract_notifier.py:59       Publishing notification: [Notification] title: Order creation, text: - BUY LIMIT: 0.006913 BTC at 4821.43 USDT on Binance, level: NotificationLevel.INFO, markdown_format: IGNORE, category: trades, linked_notification: None
+2021-01-25 09:22:37 DEBUG  WebNotifier          abstract_notifier.py:59       Publishing notification: [Notification] title: Order creation, text: - BUY LIMIT: 0.008591 BTC at 5820 USDT on Binance, level: NotificationLevel.INFO, markdown_format: IGNORE, category: trades, linked_notification: None
+2021-01-25 09:22:37 DEBUG  TelegramNotifier     abstract_notifier.py:59       Publishing notification: [Notification] title: Order creation, text: - BUY LIMIT: 0.004355 BTC at 3822.85 USDT on Binance, level: NotificationLevel.INFO, markdown_format: IGNORE, category: trades, linked_notification: None
+2021-01-25 09:22:37 DEBUG  TelegramNotifier     telegram.py:27       sending notification: [Notification] title: Order creation, text: - BUY LIMIT: 0.004355 BTC at 3822.85 USDT on Binance, level: NotificationLevel.INFO, markdown_format: IGNORE, category: trades, linked_notification: None
+2021-01-25 09:22:37 DEBUG  TelegramNotifier     abstract_notifier.py:59       Publishing notification: [Notification] title: Order creation, text: - BUY LIMIT: 0.006913 BTC at 4821.43 USDT on Binance, level: NotificationLevel.INFO, markdown_format: IGNORE, category: trades, linked_notification: None
+2021-01-25 09:22:37 DEBUG  TelegramNotifier     telegram.py:27       sending notification: [Notification] title: Order creation, text: - BUY LIMIT: 0.006913 BTC at 4821.43 USDT on Binance, level: NotificationLevel.INFO, markdown_format: IGNORE, category: trades, linked_notification: None
+2021-01-25 09:22:38 DEBUG  TelegramNotifier     abstract_notifier.py:59       Publishing notification: [Notification] title: Order creation, text: - BUY LIMIT: 0.008591 BTC at 5820 USDT on Binance, level: NotificationLevel.INFO, markdown_format: IGNORE, category: trades, linked_notification: None
+2021-01-25 09:22:38 DEBUG  TelegramNotifier     telegram.py:27       sending notification: [Notification] title: Order creation, text: - BUY LIMIT: 0.008591 BTC at 5820 USDT on Binance, level: NotificationLevel.INFO, markdown_format: IGNORE, category: trades, linked_notification: None
+2021-01-25 09:22:38 DEBUG  OctoBot Channel      logger.py:229      OHLCV : EXCHANGE = binance || CRYPTOCURRENCY = BTC || SYMBOL = BTC/USDT || TIME FRAME = 1m || CANDLE = [1611562860.0, 33311.26, 33364.44, 33287.99, 33292.39, 149.257288]
+2021-01-25 09:22:42 DEBUG  OctoBot Channel      logger.py:238      RECENT TRADES : EXCHANGE = binance || CRYPTOCURRENCY = BTC || SYMBOL = BTC/USDT || 10 first RECENT TRADES = [{'timestamp': 1611562959.952, 'symbol': 'BTC/USDT', 'side': 'sell', 'price': 33283.97, 'amount': 0.00148, 'cost': 49.2602756}, {'timestamp': 1611562959.952, 'symbol': 'BTC/USDT', 'side': 'sell', 'price': 33282.86, 'amount': 0.001227, 'cost': 40.83806922}, {'timestamp': 1611562960.039, 'symbol': 'BTC/USDT', 'side': 'sell', 'price': 33282.86, 'amount': 0.006466, 'cost': 215.20697276}, {'timestamp': 1611562960.158, 'symbol': 'BTC/USDT', 'side': 'sell', 'price': 33282.86, 'amount': 0.000359, 'cost': 11.94854674}, {'timestamp': 1611562960.285, 'symbol': 'BTC/USDT', 'side': 'buy', 'price': 33282.87, 'amount': 0.004004, 'cost': 133.26461148}, {'timestamp': 1611562960.353, 'symbol': 'BTC/USDT', 'side': 'sell', 'price': 33282.86, 'amount': 0.01273, 'cost': 423.6908078}, {'timestamp': 1611562960.389, 'symbol': 'BTC/USDT', 'side': 'sell', 'price': 33282.86, 'amount': 0.089543, 'cost': 2980.24713298}, {'timestamp': 1611562960.583, 'symbol': 'BTC/USDT', 'side': 'buy', 'price': 33282.87, 'amount': 0.010644, 'cost': 354.2628682800001}, {'timestamp': 1611562960.87, 'symbol': 'BTC/USDT', 'side': 'sell', 'price': 33282.86, 'amount': 0.000982, 'cost': 32.68376852}, {'timestamp': 1611562960.879, 'symbol': 'BTC/USDT', 'side': 'buy', 'price': 33282.87, 'amount': 0.00032, 'cost': 10.650518400000001}]
+2021-01-25 09:22:42 INFO   OctoBot Channel      logger.py:265      MARK PRICE : EXCHANGE = binance || CRYPTOCURRENCY = BTC || SYMBOL = BTC/USDT || MARK PRICE = 33282.283
+2021-01-25 09:22:42 INFO   OctoBot Channel      logger.py:283      BALANCE PROFITABILITY : EXCHANGE = binance || PROFITABILITY = 0 USDT (0.01075%)
+2021-01-25 09:22:47 DEBUG  OctoBot Channel      logger.py:238      RECENT TRADES : EXCHANGE = binance || CRYPTOCURRENCY = BTC || SYMBOL = BTC/USDT || 10 first RECENT TRADES = [{'timestamp': 1611562967.336, 'symbol': 'BTC/USDT', 'side': 'buy', 'price': 33261.37, 'amount': 0.006651, 'cost': 221.22137187}, {'timestamp': 1611562967.336, 'symbol': 'BTC/USDT', 'side': 'buy', 'price': 33261.49, 'amount': 0.003207, 'cost': 106.66959843}, {'timestamp': 1611562967.43, 'symbol': 'BTC/USDT', 'side': 'sell', 'price': 33261.35, 'amount': 0.004112, 'cost': 136.7706712}, {'timestamp': 1611562967.43, 'symbol': 'BTC/USDT', 'side': 'sell', 'price': 33258.54, 'amount': 0.015111, 'cost': 502.56979794}, {'timestamp': 1611562967.43, 'symbol': 'BTC/USDT', 'side': 'sell', 'price': 33258.53, 'amount': 0.001382, 'cost': 45.96328846}, {'timestamp': 1611562967.43, 'symbol': 'BTC/USDT', 'side': 'sell', 'price': 33258.35, 'amount': 0.001202, 'cost': 39.9765367}, {'timestamp': 1611562967.43, 'symbol': 'BTC/USDT', 'side': 'sell', 'price': 33258.24, 'amount': 0.002027, 'cost': 67.41445248}, {'timestamp': 1611562967.43, 'symbol': 'BTC/USDT', 'side': 'sell', 'price': 33257.91, 'amount': 0.00148, 'cost': 49.22170680000001}, {'timestamp': 1611562967.43, 'symbol': 'BTC/USDT', 'side': 'sell', 'price': 33257.16, 'amount': 0.0089, 'cost': 295.98872400000005}, {'timestamp': 1611562967.43, 'symbol': 'BTC/USDT', 'side': 'sell', 'price': 33257.15, 'amount': 0.002035, 'cost': 67.67830025}]
+2021-01-25 09:22:47 INFO   OctoBot Channel      logger.py:265      MARK PRICE : EXCHANGE = binance || CRYPTOCURRENCY = BTC || SYMBOL = BTC/USDT || MARK PRICE = 33258.632500000014
+2021-01-25 09:22:47 INFO   OctoBot Channel      logger.py:283      BALANCE PROFITABILITY : EXCHANGE = binance || PROFITABILITY = 0 USDT (0.08187%)
+2021-01-25 09:22:53 DEBUG  OctoBot Channel      logger.py:238      RECENT TRADES : EXCHANGE = binance || CRYPTOCURRENCY = BTC || SYMBOL = BTC/USDT || 10 first RECENT TRADES = [{'timestamp': 1611562971.827, 'symbol': 'BTC/USDT', 'side': 'buy', 'price': 33267.21, 'amount': 0.001163, 'cost': 38.68976523}, {'timestamp': 1611562971.827, 'symbol': 'BTC/USDT', 'side': 'buy', 'price': 33268.44, 'amount': 0.010507, 'cost': 349.55149908000004}, {'timestamp': 1611562971.827, 'symbol': 'BTC/USDT', 'side': 'buy', 'price': 33268.51, 'amount': 0.026227, 'cost': 872.5332117700001}, {'timestamp': 1611562971.83, 'symbol': 'BTC/USDT', 'side': 'buy', 'price': 33268.51, 'amount': 0.00999, 'cost': 332.35241490000004}, {'timestamp': 1611562971.946, 'symbol': 'BTC/USDT', 'side': 'buy', 'price': 33267.28, 'amount': 0.045882, 'cost': 1526.3693409599998}, {'timestamp': 1611562972.043, 'symbol': 'BTC/USDT', 'side': 'buy', 'price': 33268.51, 'amount': 0.0012, 'cost': 39.922212}, {'timestamp': 1611562972.101, 'symbol': 'BTC/USDT', 'side': 'buy', 'price': 33268.51, 'amount': 0.002848, 'cost': 94.74871648}, {'timestamp': 1611562972.101, 'symbol': 'BTC/USDT', 'side': 'buy', 'price': 33269.08, 'amount': 0.00148, 'cost': 49.2382384}, {'timestamp': 1611562972.101, 'symbol': 'BTC/USDT', 'side': 'buy', 'price': 33270.49, 'amount': 0.055807, 'cost': 1856.7262354299999}, {'timestamp': 1611562972.148, 'symbol': 'BTC/USDT', 'side': 'sell', 'price': 33270.17, 'amount': 0.00967, 'cost': 321.72254389999995}]
+2021-01-25 09:22:53 INFO   OctoBot Channel      logger.py:265      MARK PRICE : EXCHANGE = binance || CRYPTOCURRENCY = BTC || SYMBOL = BTC/USDT || MARK PRICE = 33267.623999999996
+2021-01-25 09:22:53 INFO   OctoBot Channel      logger.py:283      BALANCE PROFITABILITY : EXCHANGE = binance || PROFITABILITY = 0 USDT (0.05482%)
+2021-01-25 09:22:56 INFO   TentaclesSetupConfiguration tentacles_setup_configuration.py:73       Tentacles configuration updated: SignalTradingMode activated
+2021-01-25 09:22:56 INFO   TentaclesSetupConfiguration tentacles_setup_configuration.py:73       Tentacles configuration updated: StaggeredOrdersTradingMode deactivated
+2021-01-25 09:22:56 INFO   TentaclesSetupConfiguration tentacles_setup_configuration.py:73       Tentacles configuration updated: MoveSignalsStrategyEvaluator activated

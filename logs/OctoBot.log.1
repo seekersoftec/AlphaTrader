@@ -1,0 +1,72 @@
+2021-01-25 11:23:41 INFO   OctoBot Launcher     cli.py:102      Version : 0.4.0b2
+2021-01-25 11:23:41 DEBUG  OctoBot Launcher     cli.py:106      Running on Linux:5.4.0-56-generic:x86_64 with python
+2021-01-25 11:23:41 INFO   OctoBot Launcher     cli.py:112      Loading config files...
+2021-01-25 11:23:41 INFO   OctoBot Launcher     cli.py:81       Disclaimer accepted by user.
+2021-01-25 11:23:42 DEBUG  OctoBotChannel       octobot_channel.py:87       Consumer started for subject: * action: * [OctoBotChannelConsumer with callback: octobot_channel_callback]
+2021-01-25 11:23:42 DEBUG  OctoBotChannel       octobot_channel.py:87       Consumer started for subject: * action: ['exchange'] [OctoBotChannelConsumer with callback: octobot_channel_callback]
+2021-01-25 11:23:42 DEBUG  OctoBotChannel       octobot_channel.py:87       Consumer started for subject: * action: ['evaluator'] [OctoBotChannelConsumer with callback: octobot_channel_callback]
+2021-01-25 11:23:42 DEBUG  OctoBotChannel       octobot_channel.py:87       Consumer started for subject: * action: ['interface', 'notification', 'service_feed', 'start_service_feed', 'exchange_registration'] [OctoBotChannelConsumer with callback: octobot_channel_callback]
+2021-01-25 11:23:42 DEBUG  OctoBotChannel       octobot_channel.py:87       Consumer started for subject: ['notification', 'error'] action: * [OctoBotChannelConsumer with callback: octobot_channel_callback]
+2021-01-25 11:23:42 DEBUG  EvaluatorProducer    octobot_channel.py:38       Pausing...
+2021-01-25 11:23:42 DEBUG  MatrixChannel        logger.py:158      Consumer started for : [matrix_id=*, cryptocurrency=*, symbol=*, time_frame=*, evaluator_name=*, exchange_name=*, evaluator_type=*]
+2021-01-25 11:23:42 DEBUG  ExchangeProducer     octobot_channel.py:38       Pausing...
+2021-01-25 11:23:42 DEBUG  ServiceFeedProducer  octobot_channel.py:38       Pausing...
+2021-01-25 11:23:42 DEBUG  InterfaceProducer    octobot_channel.py:38       Pausing...
+2021-01-25 11:23:42 DEBUG  telegram.ext.dispatcher dispatcher.py:228      Setting singleton dispatcher as <telegram.ext.dispatcher.Dispatcher object at 0x7f4421371580>
+2021-01-25 11:23:43 INFO   TelegramService      abstract_service.py:163      Successfully initialized and accessible at: https://web.telegram.org/#/im?p=@AlphaTrader_telegram_bot.
+2021-01-25 11:23:43 INFO   apscheduler.scheduler base.py:166      Scheduler started
+2021-01-25 11:23:43 DEBUG  apscheduler.scheduler base.py:940      Looking for jobs to run
+2021-01-25 11:23:43 DEBUG  apscheduler.scheduler base.py:1016     No jobs; waiting until a job is added
+2021-01-25 11:23:44 DEBUG  telegram.ext.dispatcher dispatcher.py:354      Dispatcher started
+2021-01-25 11:23:44 INFO   WebService           abstract_service.py:163      Interface successfully initialized and accessible at: http://127.0.1.1:5001.
+2021-01-25 11:23:44 DEBUG  NotificationChannelProducer abstract_notifier.py:145      Pausing...
+2021-01-25 11:23:44 DEBUG  NotificationChannelProducer abstract_notifier.py:73       Resuming...
+2021-01-25 11:23:44 DEBUG  WebNotifier          abstract_notifier.py:74       Registered as notification consumer
+2021-01-25 11:23:44 DEBUG  TelegramNotifier     abstract_notifier.py:74       Registered as notification consumer
+2021-01-25 11:23:44 DEBUG  OctoBot Channel      logger.py:398      OCTOBOT_CHANNEL : SUBJECT = notification || ACTION = service_feed || DATA = {'instance': <RedditServiceFeed(RedditServiceFeed, initial)>} 
+2021-01-25 11:23:44 DEBUG  OctoBot Channel      logger.py:398      OCTOBOT_CHANNEL : SUBJECT = notification || ACTION = service_feed || DATA = {'instance': <tentacles.Services.Services_feeds.trading_view_service_feed.trading_view_feed.TradingViewServiceFeed object at 0x7f442136c700>} 
+2021-01-25 11:23:44 DEBUG  OctoBot Channel      logger.py:398      OCTOBOT_CHANNEL : SUBJECT = notification || ACTION = service_feed || DATA = {'instance': <tentacles.Services.Services_feeds.google_service_feed.google_feed.GoogleServiceFeed object at 0x7f442136c760>} 
+2021-01-25 11:23:44 DEBUG  OctoBot Channel      logger.py:398      OCTOBOT_CHANNEL : SUBJECT = notification || ACTION = service_feed || DATA = {'instance': <TwitterServiceFeed(TwitterServiceFeed, initial)>} 
+2021-01-25 11:23:44 DEBUG  OctoBot Channel      logger.py:398      OCTOBOT_CHANNEL : SUBJECT = notification || ACTION = service_feed || DATA = {'instance': <tentacles.Services.Services_feeds.telegram_service_feed.telegram_feed.TelegramServiceFeed object at 0x7f442136c880>} 
+2021-01-25 11:23:44 DEBUG  OctoBot Channel      logger.py:398      OCTOBOT_CHANNEL : SUBJECT = notification || ACTION = interface || DATA = {'instance': <tentacles.Services.Interfaces.telegram_bot_interface.telegram_bot.TelegramBotInterface object at 0x7f4421c04fd0>} 
+2021-01-25 11:23:44 DEBUG  OctoBot Channel      logger.py:398      OCTOBOT_CHANNEL : SUBJECT = notification || ACTION = interface || DATA = {'instance': <WebInterface(WebInterface, started 139930353260288)>} 
+2021-01-25 11:23:44 DEBUG  OctoBot Channel      logger.py:398      OCTOBOT_CHANNEL : SUBJECT = notification || ACTION = notification || DATA = {'instance': <tentacles.Services.Notifiers.web_notifier.web.WebNotifier object at 0x7f44213a3070>} 
+2021-01-25 11:23:44 DEBUG  OctoBot Channel      logger.py:398      OCTOBOT_CHANNEL : SUBJECT = notification || ACTION = notification || DATA = {'instance': <tentacles.Services.Notifiers.telegram_notifier.telegram.TelegramNotifier object at 0x7f44212c9fd0>} 
+2021-01-25 11:23:44 DEBUG  WebNotifier          abstract_notifier.py:59       Publishing notification: [Notification] title: , text: OctoBot 0.4.0b2 is starting ..., level: NotificationLevel.INFO, markdown_format: ITALIC, category: global-info, linked_notification: None
+2021-01-25 11:23:44 DEBUG  TelegramNotifier     abstract_notifier.py:59       Publishing notification: [Notification] title: , text: OctoBot 0.4.0b2 is starting ..., level: NotificationLevel.INFO, markdown_format: ITALIC, category: global-info, linked_notification: None
+2021-01-25 11:23:44 DEBUG  TelegramNotifier     telegram.py:27       sending notification: [Notification] title: , text: OctoBot 0.4.0b2 is starting ..., level: NotificationLevel.INFO, markdown_format: ITALIC, category: global-info, linked_notification: None
+2021-01-25 11:23:55 ERROR  CCXTExchange[binance] events.py:81       initialization impossible: binance GET https://api.binance.com/api/v3/exchangeInfo
+2021-01-25 11:23:55 ERROR  ExchangeManager      events.py:81       Failed to load exchange symbols or time frames
+2021-01-25 11:23:55 ERROR  root                 logger.py:44         File "octobot_trading/exchanges/exchange_manager.py", line 174, in octobot_trading.exchanges.exchange_manager.ExchangeManager._raise_exchange_load_error
+NoneType: None
+2021-01-25 11:23:55 ERROR  root                 logger.py:45       <class 'Exception'>: <tentacles.Trading.Exchange.binance.binance_exchange.Binance object at 0x7f4421397940> - Failed to load exchange instances
+NoneType: None
+2021-01-25 11:23:55 ERROR  ExchangeConfig       events.py:81       binance is not supporting the BTC/USDT trading pair.
+2021-01-25 11:23:55 ERROR  ExchangeConfig       events.py:81       binance is not supporting any Bitcoin trading pair from the current configuration.
+2021-01-25 11:23:55 ERROR  ExchangeConfig       events.py:81       binance is not supporting the ETH/BTC trading pair.
+2021-01-25 11:23:55 ERROR  ExchangeConfig       events.py:81       binance is not supporting the ETH/USDT trading pair.
+2021-01-25 11:23:55 ERROR  ExchangeConfig       events.py:81       binance is not supporting any Ethereum trading pair from the current configuration.
+2021-01-25 11:23:55 ERROR  ExchangeConfig       events.py:81       binance is not supporting the LTC/BTC trading pair.
+2021-01-25 11:23:55 ERROR  ExchangeConfig       events.py:81       binance is not supporting the LTC/USDT trading pair.
+2021-01-25 11:23:55 ERROR  ExchangeConfig       events.py:81       binance is not supporting any Litecoin trading pair from the current configuration.
+2021-01-25 11:23:55 DEBUG  OHLCVUpdater[binance] events.py:81       Pausing...
+2021-01-25 11:23:55 DEBUG  OrderBookUpdater[binance] events.py:81       Pausing...
+2021-01-25 11:23:55 DEBUG  RecentTradeUpdater[binance] events.py:81       Pausing...
+2021-01-25 11:23:55 DEBUG  TickerUpdater[binance] events.py:81       Pausing...
+2021-01-25 11:23:55 DEBUG  KlineUpdater[binance] events.py:81       Pausing...
+2021-01-25 11:23:55 DEBUG  MarkPriceUpdater[binance] events.py:81       Pausing...
+2021-01-25 11:23:55 DEBUG  FundingUpdater[binance] events.py:81       Pausing...
+2021-01-25 11:23:55 DEBUG  OrdersUpdaterSimulator[binance] events.py:81       Pausing...
+2021-01-25 11:23:55 DEBUG  BalanceProfitabilityUpdater events.py:81       Pausing...
+2021-01-25 11:23:55 DEBUG  PositionsUpdaterSimulator[binance] events.py:81       Pausing...
+2021-01-25 11:23:55 DEBUG  SpotPortfolioSimulator[binance] events.py:81       Portfolio updated | Current Portfolio : {'BTC': {'available': 0.0, 'total': 0.0}, 'USDT': {'available': 100.0, 'total': 100.0}}
+2021-01-25 11:23:55 INFO   PortfolioManager     events.py:81       Current Portfolio : {'BTC': {'available': 0.0, 'total': 0.0}, 'USDT': {'available': 100.0, 'total': 100.0}}
+2021-01-25 11:23:55 DEBUG  TraderSimulator[binance] events.py:81       Enabled on binance
+2021-01-25 11:23:55 INFO   CCXTExchange[binance] events.py:81       Closing connection.
+2021-01-25 11:23:55 INFO   CCXTExchange[binance] events.py:81       Connection closed.
+2021-01-25 11:23:55 ERROR  OctoBotChannelTradingConsumer events.py:81       Error when initializing trading mode, binance exchange connection is closed to increase performances: As non symbol-wildcard trading mode, SignalTradingMode requires at least one exchange trading pair to be initialized. None of the required pairs are available on binance.
+2021-01-25 11:24:21 INFO   TaskManager          task_manager.py:72       Stopping tasks...
+2021-01-25 11:24:21 INFO   TaskManager          task_manager.py:86       Tasks stopped.
+2021-01-25 11:24:21 INFO   apscheduler.scheduler base.py:198      Scheduler has been shut down
+2021-01-25 11:24:21 DEBUG  apscheduler.scheduler base.py:940      Looking for jobs to run
+2021-01-25 11:24:21 DEBUG  apscheduler.scheduler base.py:1016     No jobs; waiting until a job is added

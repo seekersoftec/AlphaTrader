@@ -1,0 +1,27 @@
+{
+    "pair_settings": [
+        {
+            "increment_percent": 3,
+            "lower_bound": 3000,
+            "mirror_order_delay": 0,
+            "mode": "mountain",
+            "operational_depth": 100,
+            "pair": "BTC/USDT",
+            "spread_percent": 6,
+            "upper_bound": 6000,
+            "use_existing_orders_only": false
+        },
+        {
+            "increment_percent": 3,
+            "lower_bound": 0.0003,
+            "mirror_order_delay": 0,
+            "mode": "mountain",
+            "operational_depth": 50,
+            "pair": "ADA/ETH",
+            "spread_percent": 6,
+            "upper_bound": 0.0007,
+            "use_existing_orders_only": false
+        }
+    ],
+    "required_strategies": []
+}

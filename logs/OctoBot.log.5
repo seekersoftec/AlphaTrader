@@ -1,0 +1,79 @@
+2021-01-25 10:49:09 INFO   OctoBot Launcher     cli.py:102      Version : 0.4.0b2
+2021-01-25 10:49:09 DEBUG  OctoBot Launcher     cli.py:106      Running on Linux:5.4.0-56-generic:x86_64 with python
+2021-01-25 10:49:09 INFO   OctoBot Launcher     cli.py:112      Loading config files...
+2021-01-25 10:49:09 INFO   OctoBot Launcher     cli.py:81       Disclaimer accepted by user.
+2021-01-25 10:49:09 DEBUG  OctoBotChannel       octobot_channel.py:87       Consumer started for subject: * action: * [OctoBotChannelConsumer with callback: octobot_channel_callback]
+2021-01-25 10:49:09 DEBUG  OctoBotChannel       octobot_channel.py:87       Consumer started for subject: * action: ['exchange'] [OctoBotChannelConsumer with callback: octobot_channel_callback]
+2021-01-25 10:49:09 DEBUG  OctoBotChannel       octobot_channel.py:87       Consumer started for subject: * action: ['evaluator'] [OctoBotChannelConsumer with callback: octobot_channel_callback]
+2021-01-25 10:49:09 DEBUG  OctoBotChannel       octobot_channel.py:87       Consumer started for subject: * action: ['interface', 'notification', 'service_feed', 'start_service_feed', 'exchange_registration'] [OctoBotChannelConsumer with callback: octobot_channel_callback]
+2021-01-25 10:49:09 DEBUG  OctoBotChannel       octobot_channel.py:87       Consumer started for subject: ['notification', 'error'] action: * [OctoBotChannelConsumer with callback: octobot_channel_callback]
+2021-01-25 10:49:09 DEBUG  EvaluatorProducer    octobot_channel.py:38       Pausing...
+2021-01-25 10:49:09 DEBUG  MatrixChannel        logger.py:158      Consumer started for : [matrix_id=*, cryptocurrency=*, symbol=*, time_frame=*, evaluator_name=*, exchange_name=*, evaluator_type=*]
+2021-01-25 10:49:09 DEBUG  ExchangeProducer     octobot_channel.py:38       Pausing...
+2021-01-25 10:49:09 DEBUG  ServiceFeedProducer  octobot_channel.py:38       Pausing...
+2021-01-25 10:49:09 DEBUG  InterfaceProducer    octobot_channel.py:38       Pausing...
+2021-01-25 10:49:10 DEBUG  telegram.ext.dispatcher dispatcher.py:228      Setting singleton dispatcher as <telegram.ext.dispatcher.Dispatcher object at 0x7fe26256bd60>
+2021-01-25 10:49:10 INFO   TelegramService      abstract_service.py:163      Successfully initialized and accessible at: https://web.telegram.org/#/im?p=@AlphaTrader_telegram_bot.
+2021-01-25 10:49:10 INFO   apscheduler.scheduler base.py:166      Scheduler started
+2021-01-25 10:49:10 DEBUG  apscheduler.scheduler base.py:940      Looking for jobs to run
+2021-01-25 10:49:10 DEBUG  apscheduler.scheduler base.py:1016     No jobs; waiting until a job is added
+2021-01-25 10:49:15 DEBUG  telegram.vendor.ptb_urllib3.urllib3.util.retry retry.py:378      Incremented Retry for (url='/bot1588128134:AAGNe3uuzUufA9ns0_b9Kv3DpGRPx8rHyYY/getMe'): Retry(total=2, connect=None, read=None, redirect=None)
+2021-01-25 10:49:15 WARNING telegram.vendor.ptb_urllib3.urllib3.connectionpool connectionpool.py:689      Retrying (Retry(total=2, connect=None, read=None, redirect=None)) after connection broken by 'NewConnectionError('<telegram.vendor.ptb_urllib3.urllib3.connection.VerifiedHTTPSConnection object at 0x7fe2624c9820>: Failed to establish a new connection: [Errno 101] Network is unreachable')': /bot1588128134:AAGNe3uuzUufA9ns0_b9Kv3DpGRPx8rHyYY/getMe
+2021-01-25 10:49:20 DEBUG  telegram.vendor.ptb_urllib3.urllib3.util.retry retry.py:378      Incremented Retry for (url='/bot1588128134:AAGNe3uuzUufA9ns0_b9Kv3DpGRPx8rHyYY/getMe'): Retry(total=1, connect=None, read=None, redirect=None)
+2021-01-25 10:49:20 WARNING telegram.vendor.ptb_urllib3.urllib3.connectionpool connectionpool.py:689      Retrying (Retry(total=1, connect=None, read=None, redirect=None)) after connection broken by 'NewConnectionError('<telegram.vendor.ptb_urllib3.urllib3.connection.VerifiedHTTPSConnection object at 0x7fe2624c9940>: Failed to establish a new connection: [Errno 101] Network is unreachable')': /bot1588128134:AAGNe3uuzUufA9ns0_b9Kv3DpGRPx8rHyYY/getMe
+2021-01-25 10:49:21 DEBUG  telegram.ext.dispatcher dispatcher.py:354      Dispatcher started
+2021-01-25 10:49:21 INFO   WebService           abstract_service.py:163      Interface successfully initialized and accessible at: http://127.0.1.1:5001.
+2021-01-25 10:49:21 DEBUG  NotificationChannelProducer abstract_notifier.py:145      Pausing...
+2021-01-25 10:49:21 DEBUG  NotificationChannelProducer abstract_notifier.py:73       Resuming...
+2021-01-25 10:49:21 DEBUG  WebNotifier          abstract_notifier.py:74       Registered as notification consumer
+2021-01-25 10:49:21 DEBUG  TelegramNotifier     abstract_notifier.py:74       Registered as notification consumer
+2021-01-25 10:49:21 DEBUG  OctoBot Channel      logger.py:398      OCTOBOT_CHANNEL : SUBJECT = notification || ACTION = service_feed || DATA = {'instance': <RedditServiceFeed(RedditServiceFeed, initial)>} 
+2021-01-25 10:49:21 DEBUG  OctoBot Channel      logger.py:398      OCTOBOT_CHANNEL : SUBJECT = notification || ACTION = service_feed || DATA = {'instance': <tentacles.Services.Services_feeds.trading_view_service_feed.trading_view_feed.TradingViewServiceFeed object at 0x7fe262572700>} 
+2021-01-25 10:49:21 DEBUG  OctoBot Channel      logger.py:398      OCTOBOT_CHANNEL : SUBJECT = notification || ACTION = service_feed || DATA = {'instance': <tentacles.Services.Services_feeds.google_service_feed.google_feed.GoogleServiceFeed object at 0x7fe262572760>} 
+2021-01-25 10:49:21 DEBUG  OctoBot Channel      logger.py:398      OCTOBOT_CHANNEL : SUBJECT = notification || ACTION = service_feed || DATA = {'instance': <TwitterServiceFeed(TwitterServiceFeed, initial)>} 
+2021-01-25 10:49:21 DEBUG  OctoBot Channel      logger.py:398      OCTOBOT_CHANNEL : SUBJECT = notification || ACTION = service_feed || DATA = {'instance': <tentacles.Services.Services_feeds.telegram_service_feed.telegram_feed.TelegramServiceFeed object at 0x7fe262572880>} 
+2021-01-25 10:49:21 DEBUG  OctoBot Channel      logger.py:398      OCTOBOT_CHANNEL : SUBJECT = notification || ACTION = interface || DATA = {'instance': <tentacles.Services.Interfaces.telegram_bot_interface.telegram_bot.TelegramBotInterface object at 0x7fe2625a07f0>} 
+2021-01-25 10:49:21 DEBUG  OctoBot Channel      logger.py:398      OCTOBOT_CHANNEL : SUBJECT = notification || ACTION = interface || DATA = {'instance': <WebInterface(WebInterface, started 140609914402560)>} 
+2021-01-25 10:49:21 DEBUG  OctoBot Channel      logger.py:398      OCTOBOT_CHANNEL : SUBJECT = notification || ACTION = notification || DATA = {'instance': <tentacles.Services.Notifiers.web_notifier.web.WebNotifier object at 0x7fe2625a0850>} 
+2021-01-25 10:49:21 DEBUG  OctoBot Channel      logger.py:398      OCTOBOT_CHANNEL : SUBJECT = notification || ACTION = notification || DATA = {'instance': <tentacles.Services.Notifiers.telegram_notifier.telegram.TelegramNotifier object at 0x7fe2624d8850>} 
+2021-01-25 10:49:21 DEBUG  WebNotifier          abstract_notifier.py:59       Publishing notification: [Notification] title: , text: OctoBot 0.4.0b2 is starting ..., level: NotificationLevel.INFO, markdown_format: ITALIC, category: global-info, linked_notification: None
+2021-01-25 10:49:21 DEBUG  TelegramNotifier     abstract_notifier.py:59       Publishing notification: [Notification] title: , text: OctoBot 0.4.0b2 is starting ..., level: NotificationLevel.INFO, markdown_format: ITALIC, category: global-info, linked_notification: None
+2021-01-25 10:49:21 DEBUG  TelegramNotifier     telegram.py:27       sending notification: [Notification] title: , text: OctoBot 0.4.0b2 is starting ..., level: NotificationLevel.INFO, markdown_format: ITALIC, category: global-info, linked_notification: None
+2021-01-25 10:49:21 DEBUG  telegram.ext.dispatcher dispatcher.py:372      Processing Update: {'update_id': 592477462, 'message': {'message_id': 825, 'date': 1611567136, 'chat': {'id': 727010359, 'type': 'private', 'username': 'Seekersoftec', 'first_name': '@Seekersoftec!..?'}, 'text': '/help', 'entities': [{'type': 'bot_command', 'offset': 0, 'length': 5}], 'caption_entities': [], 'photo': [], 'new_chat_members': [], 'new_chat_photo': [], 'delete_chat_photo': False, 'group_chat_created': False, 'supergroup_chat_created': False, 'channel_chat_created': False, 'from': {'id': 727010359, 'first_name': '@Seekersoftec!..?', 'is_bot': False, 'username': 'Seekersoftec', 'language_code': 'en'}}}
+2021-01-25 10:49:26 DEBUG  telegram.vendor.ptb_urllib3.urllib3.util.retry retry.py:378      Incremented Retry for (url='/bot1588128134:AAGNe3uuzUufA9ns0_b9Kv3DpGRPx8rHyYY/sendMessage'): Retry(total=2, connect=None, read=None, redirect=None)
+2021-01-25 10:49:26 WARNING telegram.vendor.ptb_urllib3.urllib3.connectionpool connectionpool.py:689      Retrying (Retry(total=2, connect=None, read=None, redirect=None)) after connection broken by 'NewConnectionError('<telegram.vendor.ptb_urllib3.urllib3.connection.VerifiedHTTPSConnection object at 0x7fe2601c11c0>: Failed to establish a new connection: [Errno 101] Network is unreachable')': /bot1588128134:AAGNe3uuzUufA9ns0_b9Kv3DpGRPx8rHyYY/sendMessage
+2021-01-25 10:49:32 ERROR  CCXTExchange[binance] events.py:81       initialization impossible: binance GET https://api.binance.com/api/v3/exchangeInfo
+2021-01-25 10:49:32 ERROR  ExchangeManager      events.py:81       Failed to load exchange symbols or time frames
+2021-01-25 10:49:32 ERROR  root                 logger.py:44         File "octobot_trading/exchanges/exchange_manager.py", line 174, in octobot_trading.exchanges.exchange_manager.ExchangeManager._raise_exchange_load_error
+NoneType: None
+2021-01-25 10:49:32 ERROR  root                 logger.py:45       <class 'Exception'>: <tentacles.Trading.Exchange.binance.binance_exchange.Binance object at 0x7fe26259b940> - Failed to load exchange instances
+NoneType: None
+2021-01-25 10:49:32 ERROR  ExchangeConfig       events.py:81       binance is not supporting the BTC/USDT trading pair.
+2021-01-25 10:49:32 ERROR  ExchangeConfig       events.py:81       binance is not supporting any Bitcoin trading pair from the current configuration.
+2021-01-25 10:49:32 DEBUG  OHLCVUpdater[binance] events.py:81       Pausing...
+2021-01-25 10:49:32 DEBUG  OrderBookUpdater[binance] events.py:81       Pausing...
+2021-01-25 10:49:32 DEBUG  RecentTradeUpdater[binance] events.py:81       Pausing...
+2021-01-25 10:49:32 DEBUG  TickerUpdater[binance] events.py:81       Pausing...
+2021-01-25 10:49:32 DEBUG  KlineUpdater[binance] events.py:81       Pausing...
+2021-01-25 10:49:32 DEBUG  MarkPriceUpdater[binance] events.py:81       Pausing...
+2021-01-25 10:49:32 DEBUG  FundingUpdater[binance] events.py:81       Pausing...
+2021-01-25 10:49:32 DEBUG  OrdersUpdaterSimulator[binance] events.py:81       Pausing...
+2021-01-25 10:49:32 DEBUG  BalanceProfitabilityUpdater events.py:81       Pausing...
+2021-01-25 10:49:32 DEBUG  PositionsUpdaterSimulator[binance] events.py:81       Pausing...
+2021-01-25 10:49:32 DEBUG  SpotPortfolioSimulator[binance] events.py:81       Portfolio updated | Current Portfolio : {'BTC': {'available': 0.0, 'total': 0.0}, 'USDT': {'available': 100.0, 'total': 100.0}}
+2021-01-25 10:49:32 INFO   PortfolioManager     events.py:81       Current Portfolio : {'BTC': {'available': 0.0, 'total': 0.0}, 'USDT': {'available': 100.0, 'total': 100.0}}
+2021-01-25 10:49:32 DEBUG  TraderSimulator[binance] events.py:81       Enabled on binance
+2021-01-25 10:49:32 INFO   CCXTExchange[binance] events.py:81       Closing connection.
+2021-01-25 10:49:32 INFO   CCXTExchange[binance] events.py:81       Connection closed.
+2021-01-25 10:49:32 ERROR  OctoBotChannelTradingConsumer events.py:81       Error when initializing trading mode, binance exchange connection is closed to increase performances: As non symbol-wildcard trading mode, SignalTradingMode requires at least one exchange trading pair to be initialized. None of the required pairs are available on binance.
+2021-01-25 10:58:25 DEBUG  telegram.vendor.ptb_urllib3.urllib3.util.retry retry.py:378      Incremented Retry for (url='/bot1588128134:AAGNe3uuzUufA9ns0_b9Kv3DpGRPx8rHyYY/getUpdates'): Retry(total=2, connect=None, read=None, redirect=None)
+2021-01-25 10:58:25 WARNING telegram.vendor.ptb_urllib3.urllib3.connectionpool connectionpool.py:689      Retrying (Retry(total=2, connect=None, read=None, redirect=None)) after connection broken by 'NewConnectionError('<telegram.vendor.ptb_urllib3.urllib3.connection.VerifiedHTTPSConnection object at 0x7fe2624c9a90>: Failed to establish a new connection: [Errno 101] Network is unreachable')': /bot1588128134:AAGNe3uuzUufA9ns0_b9Kv3DpGRPx8rHyYY/getUpdates
+2021-01-25 10:58:30 DEBUG  telegram.vendor.ptb_urllib3.urllib3.util.retry retry.py:378      Incremented Retry for (url='/bot1588128134:AAGNe3uuzUufA9ns0_b9Kv3DpGRPx8rHyYY/getUpdates'): Retry(total=1, connect=None, read=None, redirect=None)
+2021-01-25 10:58:30 WARNING telegram.vendor.ptb_urllib3.urllib3.connectionpool connectionpool.py:689      Retrying (Retry(total=1, connect=None, read=None, redirect=None)) after connection broken by 'NewConnectionError('<telegram.vendor.ptb_urllib3.urllib3.connection.VerifiedHTTPSConnection object at 0x7fe2601a2250>: Failed to establish a new connection: [Errno 101] Network is unreachable')': /bot1588128134:AAGNe3uuzUufA9ns0_b9Kv3DpGRPx8rHyYY/getUpdates
+2021-01-25 10:58:35 DEBUG  telegram.vendor.ptb_urllib3.urllib3.util.retry retry.py:378      Incremented Retry for (url='/bot1588128134:AAGNe3uuzUufA9ns0_b9Kv3DpGRPx8rHyYY/getUpdates'): Retry(total=0, connect=None, read=None, redirect=None)
+2021-01-25 10:58:35 WARNING telegram.vendor.ptb_urllib3.urllib3.connectionpool connectionpool.py:689      Retrying (Retry(total=0, connect=None, read=None, redirect=None)) after connection broken by 'NewConnectionError('<telegram.vendor.ptb_urllib3.urllib3.connection.VerifiedHTTPSConnection object at 0x7fe2601a2b20>: Failed to establish a new connection: [Errno 101] Network is unreachable')': /bot1588128134:AAGNe3uuzUufA9ns0_b9Kv3DpGRPx8rHyYY/getUpdates
+2021-01-25 10:59:38 DEBUG  telegram.ext.dispatcher dispatcher.py:372      Processing Update: {'update_id': 592477463, 'message': {'message_id': 827, 'date': 1611568778, 'chat': {'id': 727010359, 'type': 'private', 'username': 'Seekersoftec', 'first_name': '@Seekersoftec!..?'}, 'text': '/start', 'entities': [{'type': 'bot_command', 'offset': 0, 'length': 6}], 'caption_entities': [], 'photo': [], 'new_chat_members': [], 'new_chat_photo': [], 'delete_chat_photo': False, 'group_chat_created': False, 'supergroup_chat_created': False, 'channel_chat_created': False, 'from': {'id': 727010359, 'first_name': '@Seekersoftec!..?', 'is_bot': False, 'username': 'Seekersoftec', 'language_code': 'en'}}}
+2021-01-25 10:59:43 DEBUG  telegram.ext.dispatcher dispatcher.py:372      Processing Update: {'update_id': 592477464, 'message': {'message_id': 829, 'date': 1611568783, 'chat': {'id': 727010359, 'type': 'private', 'username': 'Seekersoftec', 'first_name': '@Seekersoftec!..?'}, 'text': '/ping', 'entities': [{'type': 'bot_command', 'offset': 0, 'length': 5}], 'caption_entities': [], 'photo': [], 'new_chat_members': [], 'new_chat_photo': [], 'delete_chat_photo': False, 'group_chat_created': False, 'supergroup_chat_created': False, 'channel_chat_created': False, 'from': {'id': 727010359, 'first_name': '@Seekersoftec!..?', 'is_bot': False, 'username': 'Seekersoftec', 'language_code': 'en'}}}
+2021-01-25 10:59:47 INFO   TaskManager          task_manager.py:72       Stopping tasks...
+2021-01-25 10:59:47 INFO   TaskManager          task_manager.py:86       Tasks stopped.
+2021-01-25 10:59:47 INFO   apscheduler.scheduler base.py:198      Scheduler has been shut down
